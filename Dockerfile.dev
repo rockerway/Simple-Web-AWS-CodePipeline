@@ -1,0 +1,6 @@
+FROM golang:alpine
+
+ADD . /src
+WORKDIR /src
+
+CMD ["go", "run", "main.go"]
