@@ -1,0 +1,9 @@
+Dockerfile
+Dockerfile.dev
+build
+build.dev
+dev
+test
+.git/
+.gitignore
+.dockerignore
