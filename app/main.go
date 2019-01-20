@@ -8,7 +8,7 @@ import (
 )
 
 const port int = 80
-const message string = "Go Language Server ~ dev 0.0.2"
+const message string = "Go Language Server ~ dev 0.0.3"
 
 func main() {
 	http.HandleFunc("/", func(res http.ResponseWriter, req *http.Request) {
