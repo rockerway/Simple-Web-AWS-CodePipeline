@@ -1,0 +1,5 @@
+services:
+  web:
+    build: .
+    health: /healthcheck
+    port: 80
