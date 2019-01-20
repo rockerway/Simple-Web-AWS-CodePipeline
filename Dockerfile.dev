@@ -3,7 +3,7 @@ FROM alpine
 ENV GOPATH=/go
 RUN apk add --update go musl-dev git && rm -rf /var/cache/apk/*
 RUN mkdir /go
-COPY . /usr/share/app
+COPY ./app /usr/share/app
 WORKDIR /usr/share/app
 
 CMD ["go", "test"]

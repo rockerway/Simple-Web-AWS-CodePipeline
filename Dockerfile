@@ -1,5 +1,5 @@
 FROM golang:alpine AS build-env
-ADD . /src
+ADD ./app /src
 RUN cd /src && go build -o app
 
 FROM alpine
