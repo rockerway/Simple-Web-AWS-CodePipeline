@@ -3,6 +3,4 @@ services:
     build: .
     health: /healthcheck
     port: 80
-  metrics:
-    agent: true
-    image: awesome/metrics
+
